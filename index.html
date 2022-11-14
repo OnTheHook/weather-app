@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Weather App</h1>
+        <form action="">
+            <p>
+                <label for="location">Enter the location:</label>
+                <input type="text" name="location" id="location" maxlength="25" required>
+            </p>
+            <p><button>Submit</button></p>
+        </form>
+        <div class="location">
+            <h2 id="locationTitle"></h2>
+        </div>
+        <p id="weather"></p>
+        <p id="info"></p>
+        <div class="temp">
+            <h2 id="temp"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
